@@ -1,0 +1,23 @@
+# Environments and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+
+# Data and artifacts (use DVC/Drive instead of Git)
+datasets/
+outputs/
+checkpoints/
+
+# DVC internals (DVC will manage its own ignores)
+.dvc/tmp/
+.dvc/cache/
+
+# Local scratch
+_tmp_*.txt
+_tmp_*.py
+*.png
+*.pdf
+*.npz
+
