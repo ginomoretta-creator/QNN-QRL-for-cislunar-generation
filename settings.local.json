@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"outputs\\hall_thruster_test\")",
+      "Bash(git mv BUG_FIXES_COMPLETED.md FULL_CISLUNAR_TRANSFER_DESIGN.md PROGRADE_ONLY_SUCCESS.md SESSION_SUMMARY.md RESEARCH_READINESS_GAP_ANALYSIS.md docs/archive/)",
+      "Bash(move BUG_FIXES_COMPLETED.md FULL_CISLUNAR_TRANSFER_DESIGN.md PROGRADE_ONLY_SUCCESS.md SESSION_SUMMARY.md RESEARCH_READINESS_GAP_ANALYSIS.md docsarchive)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
